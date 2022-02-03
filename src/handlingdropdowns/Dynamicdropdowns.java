@@ -34,7 +34,15 @@ public class Dynamicdropdowns
     if(option.getText().equalsIgnoreCase("New Jersey"))	
     {
     	option.click();
+    }  
     }
+    List<WebElement>options1 = driver.findElements(By.xpath("//li[@role='option']"));
+    for(WebElement option:options1)
+    {
+    if(option.getText().equalsIgnoreCase("New York"))	
+    {
+    	option.click();
+    }  
     }
    
    // driver.findElement(By.cssSelector("input[aria-label='Search']")).sendKeys(Keys.TAB);
