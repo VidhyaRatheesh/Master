@@ -1,4 +1,4 @@
-package Testing_project;
+package testing_project;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
