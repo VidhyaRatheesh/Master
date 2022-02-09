@@ -15,8 +15,6 @@
     <artifactId>testng</artifactId>
     <version>7.5</version>
 </dependency>
-
-
 </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
