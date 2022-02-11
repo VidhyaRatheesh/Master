@@ -60,7 +60,7 @@ public class Booking {
 		driver.findElement(By.cssSelector("input[class='css-bwf0ll']")).click();
 		driver.findElement(By.cssSelector("input[class='css-bwf0ll']")).sendKeys(Keys.ESCAPE);
 		driver.findElement(By.cssSelector("input[placeholder='Depart']")).click();
-		driver.findElement(By.cssSelector("span[data-date-cell='2022-02-12']")).click();
+		driver.findElement(By.cssSelector("span[data-date-cell='2022-02-12B']")).click();
 		driver.findElement(By.cssSelector("input[placeholder='Return']")).click();
 		driver.findElement(By.cssSelector("span[data-date-cell='2022-02-16']")).click();
 		driver.findElement(By.xpath("//button[normalize-space()='Search']")).click();
