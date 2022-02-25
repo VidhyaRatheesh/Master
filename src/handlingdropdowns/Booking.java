@@ -16,7 +16,7 @@ public class Booking {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\LENOVO\\Desktop\\chrome\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		driver.get("https://www.booking.com/");
 		driver.findElement(By.xpath("//span[normalize-space()='Flights']")).click();
 		driver.findElement(By.xpath("//div[contains(text(),'Round-trip')]")).click();
@@ -64,6 +64,6 @@ public class Booking {
 		driver.findElement(By.cssSelector("input[placeholder='Return']")).click();
 		driver.findElement(By.cssSelector("span[data-date-cell='2022-02-16']")).click();
 		driver.findElement(By.xpath("//button[normalize-space()='Search']")).click();
-		driver.close();
+		driver.quit();
 	}
 }

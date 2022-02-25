@@ -25,6 +25,6 @@ public class Browser {
 		Assert.assertEquals(driver.getTitle(), "Swag Labs");
 		Assert.assertEquals(driver.getCurrentUrl(), "https://www.saucedemo.com/inventory-item.html?id=4");
 
-		driver.close(); // close the current tab
+		driver.quit();
 	}
 }

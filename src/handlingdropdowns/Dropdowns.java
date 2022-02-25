@@ -43,6 +43,6 @@ public class Dropdowns {
 			System.out.println("Failed");
 
 		}
-		driver.close();
+		driver.quit();
 	}
 }

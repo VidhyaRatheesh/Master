@@ -25,6 +25,6 @@ public class FormSubmit {
 		driver.findElement(By.id("validationCustom05")).sendKeys("695588");
 		driver.findElement(By.cssSelector("label[for='invalidCheck']")).click();
 		driver.findElement(By.cssSelector("button[type='submit']")).click();
-		driver.close();
+		driver.quit();
 	}
 }

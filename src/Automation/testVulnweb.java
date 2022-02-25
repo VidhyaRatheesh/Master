@@ -34,7 +34,7 @@ public class testVulnweb {
 		driver.findElement(By.partialLinkText("Logout te")).click();// logout button
 		Assert.assertEquals(driver.getTitle(), "logout");
 		Assert.assertEquals(driver.getCurrentUrl(), "http://testphp.vulnweb.com/logout.php");
-		driver.close();
+		driver.quit();
 	}
 
 	public static String getLoginUsername(WebDriver driver) {

@@ -22,7 +22,7 @@ public class DeSelectElement {
 		// country.deselectByValue("CA");
 		country.deselectAll();
 
-		driver.close();
+		driver.quit();
 
 	}
 }

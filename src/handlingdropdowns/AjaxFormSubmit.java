@@ -17,6 +17,6 @@ public class AjaxFormSubmit {
 		driver.findElement(By.id("subject")).sendKeys("To know about Automation Testing");
 		driver.findElement(By.xpath("//textarea[@id='description']")).sendKeys("study about automation testing");
 		driver.findElement(By.xpath("//input[@value='Submit']")).click();
-		driver.close();
+		driver.quit();
 	}
 }

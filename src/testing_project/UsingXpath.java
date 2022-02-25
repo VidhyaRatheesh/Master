@@ -16,8 +16,7 @@ public class UsingXpath {
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Admin123");
 		driver.findElement(By.xpath("//li[@id='Inpatient Ward']")).click();
 		Thread.sleep(2000);
-		driver.close();
-
+		driver.quit();
 	}
 
 }

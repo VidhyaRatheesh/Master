@@ -19,7 +19,7 @@ public class Openmrscss {
 		driver.findElement(By.id("referenceapplication-registrationapp-registerPatient-homepageLink-referenceapplication-registrationapp-registerPatient-homepageLink-extension")).click();
 		driver.findElement(By.partialLinkText("Logout")).click();
 
-		driver.close();
+		driver.quit();
 
 	}
 }

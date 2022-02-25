@@ -21,7 +21,7 @@ public class RadioButtons {
 		driver.findElement(By.id("inlineRadio24")).click();
 		driver.findElement(By.xpath("//button[@id='button-two']")).click();
 		System.out.println(driver.findElements(By.cssSelector("input[type='radio']")).size());
-		driver.close();
+		driver.quit();
 
 	}
 }

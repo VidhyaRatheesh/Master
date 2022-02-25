@@ -23,6 +23,6 @@ public class CheckBox {
 		driver.findElement(By.id("button-two")).click();
 		driver.findElements(By.cssSelector("input[type='checkbox']")).size();
 		System.out.println(driver.findElements(By.cssSelector("input[type='checkbox']")).size());
-		driver.close();
+		driver.quit();
 	}
 }

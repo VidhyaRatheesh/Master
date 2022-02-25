@@ -16,7 +16,6 @@ public class usingid {
 		driver.findElement(By.id("Inpatient Ward")).click();
 		driver.findElement(By.id("loginButton")).click();
 		driver.findElement(By.partialLinkText("Logout")).click();
-		driver.close();
-
+		driver.quit();
 	}
 }

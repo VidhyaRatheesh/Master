@@ -35,7 +35,7 @@ public class SearchFlights {
 		dropdown2.selectByValue("2");
 		System.out.println(dropdown2.getFirstSelectedOption().getText());
 		driver.findElement(By.xpath("//button[normalize-space()='Search flights']")).click();		
-		driver.close();
+		driver.quit();
 
 	}
 
